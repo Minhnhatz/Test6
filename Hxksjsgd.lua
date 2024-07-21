@@ -1899,8 +1899,8 @@ for i,v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
             end
         else
             if v:FindFirstChild('NameEsp')    then
-                v:FindFirstChild('NameEsp'):Destroy()
-             end
+                v:FindFirstChild('NameEsp'
+	        ):Destroy()
          end
     end
 end)
