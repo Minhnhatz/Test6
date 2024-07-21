@@ -1898,12 +1898,12 @@ for i,v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
                 end
             end
         else
-            if v:FindFirstChild('NameEsp') then
+            if v:FindFirstChild('NameEsp')    then
                 v:FindFirstChild('NameEsp'):Destroy()
              end
          end
-    end) 
-end
+    end
+end)
 end
 
 function UpdateLSDESP() 
